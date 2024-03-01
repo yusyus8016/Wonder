@@ -1,0 +1,14 @@
+
+.ContinentItems { cursor: pointer;}
+.ContinentImg{
+    height: 120px;
+    width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    background-color: #ededed;
+}
+
+p{
+margin: 0%;
+color:#6a6a6a
+}

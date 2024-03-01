@@ -1,0 +1,87 @@
+.managment--country {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-left: 20vh;
+}
+
+.consul--country {
+  display: flex;
+  margin-left: 100px;
+  padding: 35px 10px 35px 0px;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.consul--country label {
+  margin-bottom: 5px;
+}
+
+.consul--country input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.btn-consult {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 2em;
+}
+
+.modification--info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 10px;
+  width: 110%;
+  margin-bottom: 20px;
+}
+
+.modification--info label {
+  text-align: right;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  padding-right: 10px;
+}
+
+.modification--info input[type="text"] {
+  padding: 7px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.btn-tow {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+
+.btn--update {
+  padding: 10px 20px;
+  background-color: #4b90c9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn--delete {
+  padding: 10px 20px;
+  background-color: #ce0d0d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

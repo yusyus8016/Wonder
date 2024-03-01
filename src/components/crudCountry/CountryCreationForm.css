@@ -1,0 +1,103 @@
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #dad8d8;
+  border: 1px red solid;
+} */
+
+.creation--country {
+  /* Contenedor principal con diseño de columna */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form--country--code {
+  /* Estilo para el formulario de código de país */
+  display: flex;
+  margin-left: 100px;
+  padding: 35px 10px 35px 0px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form--country--code label {
+  /* Estilo para las etiquetas dentro del formulario */
+  margin-bottom: 5px;
+}
+
+.form--country--code input[type="text"] {
+  /* Estilo para los campos de entrada de texto en el formulario */
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.btn-consult {
+  /* Estilo para el botón de Consultar en el formulario */
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 2em;
+}
+
+.obtain-information {
+  /* Contenedor de información con diseño de cuadrícula */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 10px;
+  width: 110%; /* Ancho ajustado para un mejor espaciado */
+  margin-bottom: 20px;
+}
+
+.obtain-information label {
+  /* Estilo para las etiquetas dentro del contenedor de información */
+  text-align: right; /* Alinea las etiquetas a la derecha */
+  margin-top: 8px;
+  margin-bottom: 5px;
+  padding-right: 10px; /* Añade un espacio a la derecha de las etiquetas */
+}
+
+.obtain-information input[type="text"] {
+  /* Estilo para los campos de entrada de texto en el contenedor de información */
+  padding: 7px; /* Altura ajustada */
+  width: 100%; /* Longitud ajustada */
+  text-align: center;
+  border-radius: 5px; /* Añade border-radius de 5px */
+}
+
+.btn-tow {
+  /* Contenedor para los botones de Limpiar y Crear */
+  display: flex;
+  justify-content: space-between;
+  width: 30%; /* Ancho ajustado para un mejor espaciado */
+  margin-bottom: 20px;
+}
+
+.btn--clear,
+.btn--create {
+  /* Estilo para los botones Limpiar y Crear */
+  padding: 10px 20px;
+  background-color: #d32323;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn--create {
+  /* Estilo específico para el botón Crear */
+  background-color: #008cba;
+}

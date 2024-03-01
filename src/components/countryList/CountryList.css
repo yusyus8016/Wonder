@@ -1,0 +1,205 @@
+
+/* direccion de la grid */
+.main__content {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  align-items: center; 
+  margin-top: 3rem;
+  flex-direction: column;
+ 
+  
+}
+/* la grid */
+.main__content .main__content--grid {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  gap: 1rem;   
+  margin: auto;
+  
+}
+
+/* div de la card */
+.card{
+  width: 15rem;
+  height: 10rem;
+  background-color: #bdbdbd00;    
+  border-radius: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px; 
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;   
+  box-shadow: rgb(136, 176, 248) 0px 0px 7px 0px;     
+}
+
+/* div imagen */
+.image{
+  width: 15rem;
+  height: 5.7rem;
+  padding: 0;
+  border: 1px  solid #b9b9b900;  
+  margin: 0px;   
+  max-width: 350px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;  
+     
+}
+/* imagen sola */
+.image-only{
+width: 15rem;
+height: 5.7rem;
+width: 100%;
+max-width: 100%;
+aspect-ratio: 1;
+object-fit: cover;
+object-position: center center;
+}
+/* imagen sola */
+.ima{
+width: 14.9rem;
+height: 5.7rem;
+aspect-ratio: 1;
+object-fit: cover;
+object-position: center center;
+border-top-left-radius: 12px;
+border-top-right-radius: 12px;  
+}
+/* vid banderas */
+.info{
+width: 14.9rem;
+height: 4.2rem;
+padding: 0;
+border: 1px  solid #bebebe00;  
+margin: 0;   
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+display: flex;
+align-items: start;
+transition: width 0.3s, height 0.3s;
+background-color: rgb(255, 255, 255);
+
+}
+/* div color de la card */
+.info:hover{
+  background-color: #20aef0e0;
+}
+/* color del testo seleccionado */
+.info:hover .p1{
+  color: #ffffff; 
+}
+.info:hover .p2{
+  color: #ffffff; 
+}
+
+
+/* imagen bandera */
+.flags-image{
+  width: 25%;
+  height: auto;
+  aspect-ratio: 1;    
+  margin: 0px 15px;
+}
+
+/* div de parrafos */
+.country-details p {
+  display: flex;
+  align-items: center;
+ 
+  align-items: start;  
+  margin: 5px 1px;
+}
+/* parrafo country */
+.p1{
+  color: rgb(94, 207, 235);
+  font-size: 16px;
+  font-weight: bold; 
+}
+/* parrafo continent */
+.p2{
+   color: rgb(187, 186, 186);
+}
+/* ----------------------cssde las alerts------------------------- */
+
+/* div de parrafos del alert */
+.card-text{
+  font-size: 1rem;
+  margin: auto; 
+  border: 1px;
+  text-align: left;   
+  justify-content: flex-end;  
+  width: 10rem;
+  height: auto;  
+}
+/* card de la imagen */
+.card-ima{
+width: 209px;
+height: 111px;
+border-top-left-radius: 9px;
+border-top-right-radius: 9px; 
+border-bottom-left-radius:9px;
+border-bottom-right-radius: 9px; 
+aspect-ratio: 1;
+margin-top: auto; 
+}
+/* div imagen */
+.card-img{
+  width: 13rem;
+  height: 7rem;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center center;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px; 
+  border-bottom-left-radius:9px;
+  border-bottom-right-radius: 9px; 
+}
+
+/* imagen del alert */
+.card-container{
+  width: 218px;
+  height: 320px;
+  align-items: center; 
+  justify-content: center;  
+  
+}
+/* div de bandera y parrafos del alert */
+.card-body{
+margin: auto;
+width: 13rem;
+height: 5rem;
+display: flex;
+align-items: center;
+
+}
+/* div conti y nombre de la card */
+.card-info{
+  width: 160px;
+  height: auto; 
+  align-items: center; 
+  align-items: start;  
+  margin: 10px;
+  text-align: left;  
+}
+.card-div{
+  color: rgb(95, 212, 248);  
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+
+/* cambiando el color de palabras del popup */
+.capital-word {
+  color: rgb(95, 212, 248);
+  font-weight: bold;
+}
+.idioma-word {
+  color: rgb(95, 212, 248);
+  font-weight: bold; 
+}
+.moneda-word {
+  color: rgb(95, 212, 248);  
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
